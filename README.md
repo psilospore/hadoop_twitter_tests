@@ -1,4 +1,4 @@
-# hadoop_twitter_tests
+# Hadoop Twitter Tests
 
 A few tests to test our Hadoop twitter project in CMSC433.
 

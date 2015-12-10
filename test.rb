@@ -3,7 +3,7 @@ require 'fileutils'
 filenames = Dir.entries(".")
 
 #filter filenames to match expected format
-expected_out_filenames = Array.new if expected_out_filenames.nil?
+expected_out_filenames = Array.new
 
 expected_out_filenames = filenames.select { |filename|
 	filename =~ /(.*)expected.out/
